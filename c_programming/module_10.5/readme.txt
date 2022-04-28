@@ -14,3 +14,6 @@ K - In Search of an Easy Problem: https://codeforces.com/problemset/problem/1030
 L - Dislike of Threes: https://codeforces.com/problemset/problem/1560/A
 M - New Generation ABC: https://atcoder.jp/contests/abc214/tasks/abc214_a
 N - Police Recruits: https://codeforces.com/problemset/problem/427/A
+
+vjudge link:
+https://vjudge.net/contest/491097#overview
