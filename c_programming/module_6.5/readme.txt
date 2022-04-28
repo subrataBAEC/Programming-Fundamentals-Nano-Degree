@@ -1,5 +1,5 @@
-# C programming 
-#### Contents :
+#C programming 
+####Contents :
 3.  Write a C program to check whether a given non-negative number is a multiple of 3 or 7, but not both.  For example: inputs 7, 3, 6, 14 should output yes. Inputting 21, 42 should output no.
 
 4.	Write a C program that reads an integer between 1 and 12 and print the month of the year in English.  Use switch case.
@@ -8,7 +8,7 @@ Input a number between 1 to 12 to get the month name: 8
 Expected Output:
 August
 
-5.	Write a C program that will first read an integer n, then read n integers. From those, it will find the sum of even integers.
+5. Write a C program that will first read an integer n, then read n integers. From those, it will find the sum of even integers.
 Example:
 Enter n: 5
 Input 5 integers: 2 3 5 6 7
@@ -28,8 +28,7 @@ Fizz
 4
 Buzz
 
-
-11.	  Write a program in C that takes two inputs x and y and prints all numbers that are multiples of x but divisors of y.  If there are none, print no such integers.
+11.	 Write a program in C that takes two inputs x and y and prints all numbers that are multiples of x but divisors of y.  If there are none, print no such integers.
 Test Data :
 5 20
 Expected Output :
