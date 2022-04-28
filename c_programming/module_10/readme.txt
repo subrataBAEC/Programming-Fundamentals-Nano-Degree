@@ -64,4 +64,5 @@ Input 2nd number for HCF: 28
 Expected Output :
 HCF of 24 and 28 is : 4
 
-
+** Restoring Three Numbers
+link: https://codeforces.com/problemset/problem/1154/A
