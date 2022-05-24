@@ -1,3 +1,4 @@
+## Lab exam 04
 
 1.	Write a function that takes as input a number and outputs its square.
 
