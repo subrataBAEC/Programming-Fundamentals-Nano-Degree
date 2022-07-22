@@ -1,5 +1,5 @@
-# C Programming
+# Course 2: C Programming
 ## practices, contests ,solutions
 
-# Data Structure
+# Course 3: Data Structure
 ## Theory, practices coding, contests ,solutions
