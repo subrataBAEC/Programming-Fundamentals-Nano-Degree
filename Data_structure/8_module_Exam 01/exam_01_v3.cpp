@@ -4,6 +4,8 @@ restaurant billing system--complete except question 7
 */
 #include<bits/stdc++.h> // all in one
 using namespace std;
+#define width 25
+#define size 5
 
 class Restaurant{
 public:
@@ -35,7 +37,8 @@ Restaurant* storeValues(){
 
     for(int i=0; i<5; i++){
         cin>>codes[i];
-        cin>>names[i];
+        //cin>>names[i];
+        getline(cin>>ws,names[i]);//string with space
         cin>>prices[i];
     }
     //call constructor to store value
@@ -44,20 +47,20 @@ Restaurant* storeValues(){
 }
 
 int main(){   
-    cout<<"enter 5 values"<<endl;
+    cout<<"enter 5 values "<<width<<endl;
     Restaurant *restaurant; 
 
     //input    
     restaurant=storeValues();
 
     //output--offered food menue
-    cout<<"                 MAKE BILL"<<endl;
-    cout<<"----------------------------------------------"<<endl;
-    cout<<setw(15)<<left<<"Item code"<<setw(15)<<left<<"Item name"<<setw(15)<<left<<"Item price"<<endl;
-    cout<<setw(15)<<left<<"------"<<setw(15)<<left<<"------"<<setw(15)<<left<<"------"<<endl;
+    cout<<"                     MAKE BILL"<<endl;
+    cout<<"----------------------------------------------------"<<endl;
+    cout<<setw(width)<<left<<"Item code"<<setw(width)<<left<<"Item name"<<setw(width)<<left<<"Item price"<<endl;
+    cout<<setw(width)<<left<<"------"<<setw(width)<<left<<"------"<<setw(width)<<left<<"------"<<endl;
     
     for(int j=0; j<5; j++){
-        cout<<setw(15)<<left<<restaurant-> food_item_codes[j]<<setw(15)<<left<<restaurant->food_item_names[j]<<setw(15)<<left<<restaurant->food_item_prices[j]<<endl;        
+        cout<<setw(width)<<left<<restaurant-> food_item_codes[j]<<setw(width)<<left<<restaurant->food_item_names[j]<<setw(width)<<left<<restaurant->food_item_prices[j]<<endl;        
     }
     cout<<endl;
     cout<<endl;
@@ -90,10 +93,10 @@ int main(){
     cout<<endl;
 
     //show bill summary
-    cout<<"                 BILL SUMMARY"<<endl;
-    cout<<"----------------------------------------------"<<endl;
+    cout<<"                                     BILL SUMMARY"<<endl;
+    cout<<"----------------------------------------------------------------------------------------------------------------"<<endl;
     cout<<"Table No: "<<table<<endl; 
-    cout<<setw(15)<<left<<"Item code"<<setw(15)<<left<<"Item name"<<setw(15)<<left<<"Item price"<<setw(15)<<left<<"Item Quantity"<<setw(15)<<left<<"Total Price"<<endl;
+    cout<<setw(width)<<left<<"Item code"<<setw(width)<<left<<"Item name"<<setw(width)<<left<<"Item price"<<setw(width)<<left<<"Item Quantity"<<setw(width)<<left<<"Total Price"<<endl;
     int grand_total=0;
     for(int i=0; i<n; i++){
         for(int j=0; j<5; j++){
@@ -102,16 +105,16 @@ int main(){
                 int item_total_price=0;
                 item_total_price=quantity[i]*restaurant->food_item_prices[j];
                 grand_total=grand_total+item_total_price;
-                cout<<setw(15)<<left<<restaurant-> food_item_codes[j]<<setw(15)<<left<<restaurant->food_item_names[j]<<setw(15)<<left<<restaurant->food_item_prices[j]<<setw(15)<<left<<quantity[i]<<setw(15)<<left<<item_total_price<<endl;
+                cout<<setw(width)<<left<<restaurant-> food_item_codes[j]<<setw(width)<<left<<restaurant->food_item_names[j]<<setw(width)<<left<<restaurant->food_item_prices[j]<<setw(width)<<left<<quantity[i]<<setw(width)<<left<<item_total_price<<endl;
             }
         }
         
     }    
     double tax=grand_total*0.05; 
-    cout<<"TAX"<<setw(57)<<left<<" "<<tax<<endl;
-    cout<<"-----------------------------------------------------------------------------"<<endl;
+    cout<<"TAX"<<setw(97)<<left<<" "<<tax<<endl;
+    cout<<"----------------------------------------------------------------------------------------------------------------"<<endl;
     grand_total=ceil(grand_total+tax);
-    cout<<"NET TOTAL"<<setw(51)<<left<<" "<<ceil(grand_total)<<" Taka(Rounded Value)"<<endl;
+    cout<<"NET TOTAL"<<setw(91)<<left<<" "<<ceil(grand_total)<<" Taka(Rounded Value)"<<endl;
     
     // set tax to class member--total_tax
     restaurant->set_tax(tax);
@@ -120,7 +123,7 @@ int main(){
 }
 /*
 101 
-vaat 
+chicken soup 
 30
 102 
 mach 
@@ -134,4 +137,23 @@ vorta
 105 
 daal 
 10
+*/
+
+/*
+170
+Chicken Soup 1:2
+260
+171
+Chicken Corn Soup 1:2
+200
+172
+Thai Special Soup 1:2
+300
+260
+Chicken Fried Rice 1:2
+250
+261
+Egg Fried Rice 1:2
+230
+
 */
