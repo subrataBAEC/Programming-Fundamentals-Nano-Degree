@@ -1,6 +1,6 @@
 /*
 Module 14.5 ;
-5-make duplicate elements of a matrix -1: in complete
+5-make duplicate elements of a matrix -1: complete
 method: 
 */
 
@@ -13,38 +13,44 @@ int main(){
     cin>>row>>col;
     int array[row][col];
     //input
+    //input
+    int max=0;
     for(int i=0; i<row; i++){
         for(int j=0; j<col; j++){
-            cin>>array[i][j];            
+            cin>>array[i][j];    
+            if(max<array[i][j]) max=array[i][j];        
         }
     }
-    cout<<"\n";
-
-    //count element frequensy and creat freq. array
-    int sz=row*col;
+    cout<<"max "<<max<<"\n";
+    
+    //freq array size should be max value of array
+    int sz=max+1;
     int freq[sz]={0};
-    for(int i=0; i<row; i++){
-        for(int j=0; j<col; j++){
-            freq[array[i][j]]++;
-            //cout<<"index "<<i<<" "<<j<<" "<<array[i][j]<<endl;
-        }
-    }
-    //print freq array
-    cout<<"\n";
-    for(int i=0; i<sz; i++){
-        cout<<freq[i]<<" ";
-    }
-    //output
+    // for(int i=0; i<row; i++){
+    //     for(int j=0; j<col; j++){
+    //         freq[array[i][j]]++;
+    //         //cout<<"index "<<i<<" "<<j<<" "<<array[i][j]<<endl;
+    //     }
+    // }
+    // //print freq array
+    // cout<<"\n"<<"freq array "<<"\n";
+    // for(int i=0; i<sz; i++){
+    //     cout<<freq[i]<<" ";
+    // }
+    //replace duplicate elements
+    //int freq[]={0};
     cout<<"\n"<<"duplicate elemets to -1 "<<"\n";
     for(int i=0; i<row; i++){
         for(int j=0; j<col; j++){
-            for(int k=0;k<sz;k++){
-                if(freq[k]>1){
-                    array[i][j]=-1;
-                }
+            if (freq[array[i][j]]>0){
+                //cout<<i<<" "<<j<<" "<<array[i][j]<<endl;
+                array[i][j]=-1;
             }
+            else freq[array[i][j]]++;
         }
     }
+    //output
+    cout<<"\n";
     for(int i=0; i<row; i++){
         for(int j=0; j<col; j++){
             cout<<array[i][j]<<" ";            
