@@ -1,3 +1,3 @@
 
-# operations of Linked List
-# Basic operations of doubly Linked List
+### 18.5: Operations of Linked List
+### 19: Basic operations of doubly Linked List
