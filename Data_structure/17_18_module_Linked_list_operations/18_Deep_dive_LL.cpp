@@ -438,9 +438,9 @@ int main()
             deleteAtSpecificPosition(head, pos);
             break;
         case 10:
-            cout<<"enter the value to delete(unique LL): ";
-            cin>>value;
-            deletionByValueUnique(head,value);
+            cout << "enter the value to delete(unique LL): ";
+            cin >> value;
+            deletionByValueUnique(head, value);
             break;
 
         case 20:
