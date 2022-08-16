@@ -1,4 +1,4 @@
-/*
+/*Module 19
 creat a doubly Linked list
 1. insert at head
 2. insert at tail
@@ -36,7 +36,7 @@ void insertAtHead(doublyNode *&head, int val)
     }
     else
     {
-        doublyNode *newNode = new doublyNode(val);
+        // doublyNode *newNode = new doublyNode(val);
         head->prev = newNode;
         newNode->next = head;
         head = newNode;
@@ -100,10 +100,14 @@ void reverse(doublyNode *&head)
         return;
     }
     // step 1: go to last node
-    while (temp->next != NULL)
+    while (temp->next != NULL)// dont go fot temp!=NULL
     {
+        cout<<temp->value<<" ";
         temp = temp->next;
     }
+    cout<<temp->value<<endl;//to print the last value
+    cout<<endl;
+
     // step 2:reverse from last node to head
     while (temp != NULL)
     {
@@ -122,9 +126,9 @@ main()
     cout << "choice 3: Count LL" << endl;
     cout << "choice 4: Display LL" << endl;
     cout << "choice 5: Reverse doubly LL" << endl;
+    cout << "choice 9:   auto input"<<endl;
 
-    cout << endl
-         << "enter choice: ";
+    cout << "enter choice: ";
     int choice, value, len, pos, position;
     cin >> choice;
     while (choice != 0)
@@ -152,9 +156,20 @@ main()
         case 5:
             reverse(head);
             break;
+        case 9:
+            insertAtTail(head,10);
+            insertAtTail(head,20);
+            insertAtTail(head,30);
+            insertAtTail(head,40);
+            // doublyNode *head=new doublyNode(10);
+            // doublyNode *a=new doublyNode(20);
+            // doublyNode *b=new doublyNode(30);
+            // doublyNode *c=new doublyNode(40);            
+            break;
         default:
             break;
         }
+        //display(head);
         cout << "again input choice: ";
         cin >> choice;
     }
