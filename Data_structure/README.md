@@ -15,6 +15,22 @@
 #### - Bank Management System using OOP
 #### - Student Information Management System
 #### - Shop Product Information Management System
+## 6. Module: 8- Exam 01(Theory Type) 
+### - Simple Restaurant Billing System using OOP concepts and C++
+## 7. Module: 10 and 10.5
+###   Array searching
+#### - Linear Search
+#### - Binary Search
+#### - Practice Problems on Array
+## 8. Module: 11
+###   Array Sorting
+#### - Bubble Sort
+#### - Insertion Sort
+## 9. Module: 11
+###   Exam 02(Problem Solving)
+#### - Link: Contest Link: https://vjudge.net/contest/507340
 
-## 6. Module: 
-### - Basic string operations on C++
+
+## 10. Module: 14 and 14.5
+###   Counting Sort
+#### - practice problems on 2D array. 
