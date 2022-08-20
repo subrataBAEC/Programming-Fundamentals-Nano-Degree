@@ -7,3 +7,4 @@
 ### 5. Top
 
 ## Save the file as a New Header File and import in main().cpp
+## only works for Integer Data Type.
