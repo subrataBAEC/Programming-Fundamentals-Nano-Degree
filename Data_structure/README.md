@@ -15,7 +15,7 @@
 #### - Bank Management System using OOP
 #### - Student Information Management System
 #### - Shop Product Information Management System
-## 6. Module: 8- Exam 01(Theory Type) 
+## 6. Module: 8- Exam 01 (Theory Type) 
 ### - Simple Restaurant Billing System using OOP concepts and C++
 ## 7. Module: 10 and 10.5
 ###   Array searching
@@ -26,11 +26,17 @@
 ###   Array Sorting
 #### - Bubble Sort
 #### - Insertion Sort
-## 9. Module: 11
-###   Exam 02(Problem Solving)
+## 9. Module: 12
+###   Exam 02 (Problem Solving)
 #### - Link: Contest Link: https://vjudge.net/contest/507340
-
-
 ## 10. Module: 14 and 14.5
 ###   Counting Sort
 #### - practice problems on 2D array. 
+## 11. Module: 15 
+###   Basics of Linked List
+#### - creating and User input
+## 12. Module: 15.5
+###   Practice Problems on Array
+## 13. Module: 16
+###   Exam 03- Theory Type
+#### - Array Sorting, Searching Techniques, Array Memory Allocations, Baiscs of Linked Lists
