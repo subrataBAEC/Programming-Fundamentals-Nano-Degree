@@ -43,3 +43,24 @@
 #### - Searching Techniques
 #### - Array Memory Allocations
 #### - Baiscs of Linked Lists
+## 14. Module: 17, 18, 18.5, 19
+###   Deep Dive into Linked List
+#### - Different operations on Linked List
+#### - Operations of Linked List
+#### - Basic operations of doubly Linked List
+
+
+
+## 15. Module: 
+###   Exam 03- Theory Type
+#### - Array Sorting
+#### - Searching Techniques
+
+## 16. Module: 
+###   Exam 03- Theory Type
+#### - Array Sorting
+#### - Searching Techniques
+## 17. Module: 
+###   Exam 03- Theory Type
+#### - Array Sorting
+#### - Searching Techniques
