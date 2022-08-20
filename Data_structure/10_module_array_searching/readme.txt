@@ -1,1 +1,4 @@
 
+Array searching:
+- Linear
+- Binary
