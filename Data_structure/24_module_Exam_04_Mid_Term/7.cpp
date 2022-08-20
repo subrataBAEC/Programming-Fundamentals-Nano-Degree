@@ -2,7 +2,6 @@
 module 24
 exam mid term
 Q 7-complete
-link:https://www.youtube.com/watch?v=fi2vh0nQLi0&ab_channel=CodeHelp-byBabbar
 
 8
 1 2 2 4 5 6 7 8
