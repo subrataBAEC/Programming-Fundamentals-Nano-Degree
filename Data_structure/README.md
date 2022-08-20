@@ -39,4 +39,7 @@
 ###   Practice Problems on Array
 ## 13. Module: 16
 ###   Exam 03- Theory Type
-#### - Array Sorting, Searching Techniques, Array Memory Allocations, Baiscs of Linked Lists
+#### - Array Sorting
+#### - Searching Techniques
+#### - Array Memory Allocations
+#### - Baiscs of Linked Lists
