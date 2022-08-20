@@ -48,19 +48,26 @@
 #### - Different operations on Linked List
 #### - Operations of Linked List
 #### - Basic operations of doubly Linked List
+## 15. Module: 19.5 and 20
+###   Practice Problems on Linked Lists and Arrays
+#### - (incomplete)
+## 16. Module: 21
+###   Advanced Singly Linked Lists
+## 17. Module: 22
+###   Creat a stack Header file for Basic Stack operations
 
 
+------------------------------------
+## 14. Module: 
+###   Deep Dive into Linked List
+#### - Different operations on Linked List
+#### - Operations of Linked List
 
 ## 15. Module: 
-###   Exam 03- Theory Type
-#### - Array Sorting
-#### - Searching Techniques
-
+###   Deep Dive into Linked List
+#### - Different operations on Linked List
+#### - Operations of Linked List
 ## 16. Module: 
-###   Exam 03- Theory Type
-#### - Array Sorting
-#### - Searching Techniques
-## 17. Module: 
-###   Exam 03- Theory Type
-#### - Array Sorting
-#### - Searching Techniques
+###   Deep Dive into Linked List
+#### - Different operations on Linked List
+#### - Operations of Linked List
