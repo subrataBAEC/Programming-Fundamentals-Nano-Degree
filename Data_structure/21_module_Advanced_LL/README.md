@@ -1,5 +1,5 @@
-## Single Linear Linked List
-### Operations on single linear linked list
+## Singly Linear Linked List
+### Operations on singly linear linked list
 ### All basic ops
 
 1.	Counting the Size
