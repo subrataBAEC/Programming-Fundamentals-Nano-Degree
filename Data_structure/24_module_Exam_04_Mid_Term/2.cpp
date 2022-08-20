@@ -8,7 +8,7 @@ Now find the difference (set operation) of array A and B or (A-B).
 
 logic: compare every element of a to every element of b, if matches break loob
 b, it loop b reaches end, that means no similar is found. print from seta.
-link:https://www.youtube.com/watch?v=dtO05taEaVc&ab_channel=ProgrammingLife
+
 
 */
 
