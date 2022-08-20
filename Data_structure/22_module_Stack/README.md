@@ -1,5 +1,5 @@
 # Stack
-## creat basic stack operations
+## Creat Basic Stack Operations
 ### 1. PUSH
 ### 2. POP
 ### 3. is Empty?
