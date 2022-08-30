@@ -57,23 +57,29 @@
 ###   Creat a stack Header file for Basic Stack operations
 ## 18. Module: 22.5
 ###   Practice problem on Linked List
-
 ## 19. Module: 23.5
 ###   Practice problem : incomplete
-### Topics: Theory Mid Term
+## 20. Module: 24
+###   Mid Term Lab
+### - Topics: Array, Linked List, Stack
+## 21. Module: 25
+###   Infix, prefix, postfix 
+### - infix to prefix
+#### - prefix calculation using stack
+## 21. Module: 26
+###   Queue introduction and implementation using LL
+## 22. Module: 26.5 and 27
+###   Practice problems on stack, queue
+#### - using newly developed header file
+## 23. Module: 28
+###   Theory Mid Term
 #### Array, Linked List, Stack, Queue , Time complexity
 
+
 ------------------------------------
-## 14. Module: 
+--------------------------------------
+## 0000. Module: Adding
 ###   Deep Dive into Linked List
 #### - Different operations on Linked List
 #### - Operations of Linked List
 
-## 15. Module: 
-###   Deep Dive into Linked List
-#### - Different operations on Linked List
-#### - Operations of Linked List
-## 16. Module: 
-###   Deep Dive into Linked List
-#### - Different operations on Linked List
-#### - Operations of Linked List
