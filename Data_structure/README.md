@@ -65,7 +65,7 @@
 ## 21. Module: 25
 ###   Infix, prefix, postfix 
 ### - infix to prefix
-#### - prefix calculation using stack
+### - prefix calculation using stack
 ## 21. Module: 26
 ###   Queue introduction and implementation using LL
 ## 22. Module: 26.5 and 27
@@ -73,7 +73,7 @@
 #### - using newly developed header file
 ## 23. Module: 28
 ###   Theory Mid Term
-#### Array, Linked List, Stack, Queue , Time complexity
+#### - Array, Linked List, Stack, Queue , Time complexity
 
 
 ------------------------------------
