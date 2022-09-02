@@ -74,6 +74,11 @@
 ## 23. Module: 28
 ###   Theory Mid Term
 #### - Array, Linked List, Stack, Queue , Time complexity
+## 24. Module: 30,31
+### Topics: Introduction to Tree Data Structure
+#### - Tree implementation 
+#### - Traversal: Level Order, In Order, Pre Order, Post Order
+#### - Boundary Traversal
 
 
 ------------------------------------
