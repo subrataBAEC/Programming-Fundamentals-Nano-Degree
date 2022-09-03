@@ -80,8 +80,7 @@
 #### - Traversal: Level Order, In Order, Pre Order, Post Order
 #### - Boundary Traversal
 ## 25. Module: 32
-### Topics: Lab Exam on Tree Data Structure
-
+### Topics: Lab Exam on Tree Data Structure(Binary Tree)
 
 ------------------------------------
 --------------------------------------
