@@ -6,7 +6,7 @@ Q 4-complete
 
 logic:
 1. if roots are empty- true
-2. chech root value && 
+2. chech root value &&
     -left elements of left subtree, right elements of right subtree &&
     -right elements of left subtree, left elements of right subtree
 3. if all is true- trees are symmatric
@@ -97,7 +97,6 @@ int main()
             q.push(n2);
         }
     }
-    cout << "symmatric: " << endl;
     bool x = isSymmetric(root);
     if (x == true)
         cout << "symatric tree" << endl;

@@ -86,7 +86,7 @@ bool is_unival(treeNode *root)
     }
     if(flag==0) return false; //not
     else if(flag==1) return true; //yes
-    return 2;
+    return -1;
 }
 
 int main()

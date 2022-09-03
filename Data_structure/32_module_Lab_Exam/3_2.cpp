@@ -8,7 +8,7 @@ Q 3-complete
 in:
 3 9 20 -1 -1 15 7 -1 -1 -1 -1
 out:
-3 9 20 15 7
+15 7 9 20 3
 */
 
 #include <bits/stdc++.h>

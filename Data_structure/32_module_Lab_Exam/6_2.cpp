@@ -7,7 +7,7 @@ this returns the inverted tree Node
 4 2 7 1 3 6 9 -1 -1 -1 -1 -1 -1 -1 -1
 
 logic:
-- swap left-right child pointers then
+- swap left-right child pointers, then
 - recursive call
 - check if eveything is ok with print function
 
@@ -86,12 +86,10 @@ treeNode *invert_tree(treeNode *root)
     {
         return root;
     }
-
     // swap left-right
     treeNode *temp = root->left;
     root->left = root->right;
     root->right = temp;
-
     // recursive call
     invert_tree(root->left);
     invert_tree(root->right);

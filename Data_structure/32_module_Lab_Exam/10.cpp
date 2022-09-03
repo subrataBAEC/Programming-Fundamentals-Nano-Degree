@@ -79,7 +79,6 @@ int second_minimum(treeNode *root)
     int min_first = root->val;
     //int x = 1000;//hypothetical
     long long int x = LONG_LONG_MAX;//hypothetical
-
     int res;
     int flag = 0;
     //cout << min_first << " " << x << endl;
@@ -104,7 +103,7 @@ int second_minimum(treeNode *root)
     }
     // cout << x << endl;
 }
-// 3 9 20 -1 -1 15 7 -1 -1 -1 -1
+
 int main()
 {
     int a;

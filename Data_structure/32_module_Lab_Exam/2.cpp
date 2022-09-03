@@ -44,7 +44,7 @@ void levelOrderTraversal(treeNode *root, string &chk)
         // presentNode is not NULL
         if (presentNode != NULL)
         {
-            //cout << presentNode->data << " ";
+            cout << presentNode->data << " ";
             chk += to_string(presentNode->data); // also print as string
             chk+=" ";
             if (presentNode->leftChild != NULL)
@@ -103,11 +103,10 @@ int main()
             q.push(n1);
         if (n2 != NULL)
             q.push(n2);
-    }
-
-    
+    }    
     string levelordertraversal = "";
     levelOrderTraversal(root, levelordertraversal); 
+    cout<<endl;
     cout<< "Levelorder traversal: " << levelordertraversal << endl; // print from string
     cout << endl;
 

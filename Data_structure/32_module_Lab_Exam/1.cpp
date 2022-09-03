@@ -1,12 +1,12 @@
 /*
 Q 1-complete
 
-input tree 1 and 2: 
+input tree 1 and 2:
 1 2 3 -1 -1 -1 -1
 1 2 3 -1 -1 -1 -1
 output:
 
-input tree 1 and 2: 
+input tree 1 and 2:
 1 2 -1 -1 -1
 1 -1 2 -1 -1
 */
@@ -29,46 +29,6 @@ public:
     }
 };
 
-void levelOrderTraversal(treeNode *root, string &chk)
-{
-    if (root == NULL)
-    {
-        return;
-    }
-
-    queue<treeNode *> q; // pointer type queue
-    q.push(root);
-    q.push(NULL);
-
-    while (!q.empty())
-    {
-        treeNode *presentNode = q.front();
-        q.pop();
-        // presentNode is not NULL
-        if (presentNode != NULL)
-        {
-            cout << presentNode->data << " ";
-            chk += to_string(presentNode->data); // also print as string
-            if (presentNode->leftChild != NULL)
-            {
-                q.push(presentNode->leftChild);
-            }
-            if (presentNode->rightChild != NULL)
-            {
-                q.push(presentNode->rightChild);
-            }
-        }
-        // presentNode is NULL
-        else
-        {
-            if (!q.empty())
-            {
-                q.push(NULL);
-            }
-        }
-    }
-}
-
 // is similar two trees?
 bool isSame(treeNode *root1, treeNode *root2)
 {
@@ -88,12 +48,12 @@ bool isSame(treeNode *root1, treeNode *root2)
     int res = x && y && z;
     if (res == 1)
     {
-        //cout << "res " << res << endl;
+        // cout << "res " << res << endl;
         return true;
     }
     else
     {
-        //cout << "res " << res << endl;
+        // cout << "res " << res << endl;
         return false;
     }
 }
@@ -101,7 +61,6 @@ bool isSame(treeNode *root1, treeNode *root2)
 int main()
 {
     // first tree
-
     // creat root node
     int a;
     cin >> a;
@@ -137,7 +96,6 @@ int main()
         if (n2 != NULL)
             q.push(n2);
     }
-
     // second tree
     int b;
     cin >> b;
@@ -164,7 +122,6 @@ int main()
         {
             n4 = new treeNode(y2);
         }
-
         presentRoot2->leftChild = n3;
         presentRoot2->rightChild = n4;
 
@@ -182,13 +139,5 @@ int main()
     {
         cout << "not similar";
     }
-
-    // string levelordertraversal = "";
-    // cout << "Levelorder traversal: ";
-    // levelOrderTraversal(root2, levelordertraversal); // print from function
-    // //cout << endl;
-    // //cout<< "Levelorder traversal: " << levelordertraversal << endl; // print from string
-    // cout << endl;
-
     return 0;
 }
