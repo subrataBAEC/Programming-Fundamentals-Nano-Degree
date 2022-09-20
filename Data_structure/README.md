@@ -84,6 +84,10 @@
 ## 26. Module: 39
 ### Final Exam(Theory)
 #### Topics: Array, 2D Array Memory Allocation, Array Sorting, Linkede List(Singly, Doubly, Circular), Stack, Uses of Stack in Infix-    Prefix-Postfix Notation, Queue, Binary Tree, Binary Search Tree, Heap, Priority Queue
+## 27. Module: 40
+### Topics: Graph introduction and Implementation(Input and Output)
+## 28. Module: 41
+### Topics: Graph Traversal- BFS,DFS
 ------------------------------------
 --------------------------------------
 ## 0000. Module: Adding
