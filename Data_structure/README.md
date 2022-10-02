@@ -66,29 +66,29 @@
 ###   Infix, prefix, postfix 
 ### - infix to prefix
 ### - prefix calculation using stack
-## 21. Module: 26
+## 22. Module: 26
 ###   Queue introduction and implementation using LL
-## 22. Module: 26.5 and 27
+## 23. Module: 26.5 and 27
 ###   Practice problems on stack, queue
 #### - using newly developed header file
-## 23. Module: 28
+## 24. Module: 28
 ###   Theory Mid Term
 #### - Array, Linked List, Stack, Queue , Time complexity
-## 24. Module: 30,31
+## 25. Module: 30,31
 ### Topics: Introduction to Tree Data Structure
 #### - Tree implementation 
 #### - Traversal: Level Order, In Order, Pre Order, Post Order
 #### - Boundary Traversal
-## 25. Module: 32
+## 26. Module: 32
 ### Topics: Lab Exam on Tree Data Structure(Binary Tree)
-## 26. Module: 39
+## 27. Module: 39
 ### Final Exam(Theory)
 #### Topics: Array, 2D Array Memory Allocation, Array Sorting, Linkede List(Singly, Doubly, Circular), Stack, Uses of Stack in Infix-    Prefix-Postfix Notation, Queue, Binary Tree, Binary Search Tree, Heap, Priority Queue
-## 27. Module: 40
+## 28. Module: 40
 ### Topics: Graph introduction and Implementation(Input and Output)
-## 28. Module: 41
+## 29. Module: 41
 ### Topics: Graph Traversal- BFS,DFS
-## 29. Module: 43
+## 30. Module: 43
 ### Final Exam(Lab) - Hacker Rank Contest
 #### Topics: Array, 2D Array Memory Allocation, Array Sorting, Linkede List(Singly, Doubly, Circular), Stack, Uses of Stack in Infix-    Prefix-Postfix Notation, Queue, Binary Tree, Binary Search Tree, Heap, Priority Queue
 ------------------------------------
