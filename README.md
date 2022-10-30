@@ -10,7 +10,7 @@
 #### Theory, Practices, Contests, Solutions
 
 ## Semester 2: 
-### Course 1: OOP with Python
+### Course 1: OOP with Python (Ongoing)
 #### Theory, Practices, Solutions
 
 -----------------------------------
