@@ -11,7 +11,6 @@ def check_palindrome(text):
     else:
         print("not palindrome")
 
-
 # main()
 text="dppafappd"
 check_palindrome(text)

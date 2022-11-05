@@ -1,5 +1,5 @@
 # module 19- Theory Mid Term
-# Q no 9: book page skip backward (complete)
+# Q no 9: book page skip forwand and backward (complete)
 
 
 """""
@@ -7,8 +7,6 @@ Further extend the book reader so that it can accept negative numbers for skippi
 Entering -1 should go back to the previous page. There are many ways to achieve this.
 
 """""
-# import keyboard
-
 
 with open('File.txt','r') as file:
     lines=file.readlines() 
@@ -24,13 +22,16 @@ res=s.split("--")
 # print(res)
 
 # main operation
-
 i=0
 while True:
 # for w in res:    
+
+
     print(res[i])
     num=input("Enter a page number to open(forward and backward), press enter for next page, q to quit: ")
     # print(num, type(num)) # num- string class
+    
+
 
     if num=='q': # for quit
         print("quit")
@@ -47,46 +48,10 @@ while True:
         i=num+i
         # print("p", i)
 
+
+
     else: # for negative
         # print(i, res[i+1]) # type string
         num=int(num)
         i=num+i
         # print("n", i)
-
-
-
-
-
-
-# string=(input("num: "))
-# # print(string[0])
-
-# if string=="":
-#     print("oth")
-
-# elif string.isdigit():
-#     print("pos")
-# else:
-#     print("neg")
-
-
-
-
-
-
-
-# # i=0
-# # while True:
-# #     print(res[i])
-# #     num=input("Enter a number to skip /press enter for next page: ")
-# #     # print(num, type(num)) # num- string class
-
-# #     if num.isdigit():
-# #         num=int(num)
-        
-# #         # print(num, type(num)) # num- int
-# #         # print(res[num])
-# #         i=num+i
-# #     else:
-# #         # print(i, res[i+1]) # type string
-# #         i=i+1

@@ -8,8 +8,6 @@ If the number is positive, the given number of pages are skipped. If there is no
 the next page is displayed.
 
 """""
-# import keyboard
-
 
 with open('File.txt','r') as file:
     lines=file.readlines() 
@@ -43,94 +41,3 @@ while True:
     else:
         # print(i, res[i+1]) # type string
         i=i+1
-
-
-
-
-# # print("first:",res[0])
-# print(len(res))
-# i=0
-# print(res[i])
-
-# for index, item in enumerate(res):
-#     print(index, item)
-#     # print(item[2])
-# # print(item[:])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# import keyboard
-
-# # file write
-# # with open("test.txt",'w',encoding = 'utf-8') as f:
-# #    f.write("my first file\n")
-# #    f.write("This file\n\n")
-# #    f.write("contains three lines\n")
-
-# # file read
-# with open('File.txt','r') as file:
-#     lines=file.readlines() 
-#     # print(lines)
-# # print(lines)
-
-# # converting to string from list
-# s=''
-# for i in lines:    
-#     s+=i
-# # print(s)
-
-# # split when "--" is found
-# res=s.split("--")
-# print(res)
-
-# # main operation
-
-# print("first:",res[0])
-# num='0'
-# # read key press
-# for i in range(1,len(res)):
-#     # print(res[i])
-#     i=i+int(num)    
-#     print(i)
-
-#     num=(input("enter a page number:" ))
-    
-#     # if keyboard.read_key() == "enter":
-#     if (num.isdigit()):
-#         print(res[int(num)+i])
-#         # i=i+int(num)
-#         print(i)
-
-#     elif (num.isalpha()):
-#         print("[enter - read more, press q to quit]")   
-#         keyboard.read_key()
-#         if(keyboard.read_key() == "enter"):
-#             print(res[i])
-#         elif keyboard.read_key()=="q":
-#             print("quit")
-#             break
-#             # # else:
-#         # #     print("try again")
