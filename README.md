@@ -6,7 +6,7 @@
 ### Course 2: C Programming
 #### Theory, Practices, Contests, Solutions, 
 
-### Course 3: Data Structure
+### Course 3: Data Structure using C++
 #### Theory, Practices, Contests, Solutions
 
 ## Semester 2: 
