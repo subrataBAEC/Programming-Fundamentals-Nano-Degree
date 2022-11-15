@@ -1,0 +1,1 @@
+from simple_singleton import GP
