@@ -1,3 +1,3 @@
 
 ## Recap Week
-### Revision of importanct topics from this Course
+### Revision of important topics from this Course
