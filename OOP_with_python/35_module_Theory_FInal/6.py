@@ -1,5 +1,5 @@
 # Theory Final Exam
-# module 35 Question 6(in complete)
+# module 35 Question 6(complete)
 
 # python pattern
 
@@ -22,37 +22,23 @@ When n=7,
 
 """
 
-n=5
-# lst=[]
-# for i in range(1,7):
-#     lst.append([x for x in range(1, n+1)])
-# print(lst)
+# function def. to print a row
+def print_row(lst):
+    for val in lst:
+        print(val, end=" ")
+    print()
+
+# main()
+n=int(input("enter n: "))
+
+# creat list n by n
 lst=[x for x in range(1, n+1)]
-print(lst)
+# print(lst)
 
 
+print_row(lst)
 
-lst1=[]
-lst2=[]
-# for i in range(0, n):
-#     for j in range(0, n):
-#         if i==j and j-1!=0:
-#             # print(i, j)
-#             # temp=lst[i]
-#             print(i,j)
-#             lst[j], lst[j-1]=lst[j-1], lst[j]
-#             lst1.append(lst)
-#     print(lst1, end=" ")
-#     lst2.append(lst1[-1])
-#     # for items in lst1[0]:
-#     #     print(items, end=" ")
-#     print()
-# print(lst2)
-
-# for i in range(1,n+1):
-#     for j in range(1,n+1):
-#         if i==j:
-#             print(1,end=" ")
-#         print(j)
-        
-#     print()
+for i in range(n-1):    
+    if i<n-1:
+        lst[i], lst[i+1]= lst[i+1], lst[i]
+    print_row(lst)
