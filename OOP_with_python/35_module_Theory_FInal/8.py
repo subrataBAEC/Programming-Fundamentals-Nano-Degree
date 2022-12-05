@@ -13,4 +13,4 @@ No
 """
 
 even_odd=lambda n:"Yes" if (n%2==0) else "No"
-print(even_odd(5))
+print(even_odd(50))
