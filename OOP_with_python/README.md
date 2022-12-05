@@ -17,8 +17,7 @@
 ########################
 ------------------------
 ## 1. Module: 6
-###   Basic string operations on C++
+###   Basic string operations 
 ## 4. Module: 6.5
-###   Practice on OOP in C++
-#### - Store 1 student information using OOP concept
-#### - Store N number of students information using array and OOP concept
+###   Practice on 
+
