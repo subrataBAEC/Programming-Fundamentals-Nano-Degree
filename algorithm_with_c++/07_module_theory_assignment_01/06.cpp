@@ -1,7 +1,7 @@
 /*
 Course: Algorithm with C++
 Theory Assignment 01
-question no. 06 (in complete)
+question no. 06 (complete)
     GCD of two numbers using recursion.
 */
 
@@ -25,7 +25,7 @@ int gcd(int a, int b){ //a>b
 int gcd(int a, int b){ //a>b
 
     if(b==0){
-        cout<<a;
+        return a;
     }
 
     int rem=a%b;

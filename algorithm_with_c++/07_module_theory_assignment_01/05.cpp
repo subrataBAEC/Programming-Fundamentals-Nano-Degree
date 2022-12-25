@@ -42,6 +42,7 @@ string int_to_binary(int decimal){
 // method 3: Recursive method
 void int_to_binary(int decimal){
 
+    // base case
     if(decimal==0){
         return;
     }
@@ -49,17 +50,13 @@ void int_to_binary(int decimal){
         int_to_binary(decimal/2);
         cout<<(decimal%2);
     }
-
 }
 
 int main(){
     int decimal;
     cin>>decimal;
 
-
     int_to_binary(decimal);
     // string res= int_to_binary(decimal);
     // cout<<res;
-
-
 }

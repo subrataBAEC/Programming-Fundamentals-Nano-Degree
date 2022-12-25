@@ -103,7 +103,7 @@ int main(){
     cout<<endl;
 
     // call DFS
-    int src=8;
+    int src=1;
     DFS(src);
 
     cout<<endl;

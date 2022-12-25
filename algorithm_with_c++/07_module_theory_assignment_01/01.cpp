@@ -73,6 +73,7 @@ int main(){
         // matrix[v][u]=1;
     }
     cout<<endl;
+
     // matrix print
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
@@ -82,7 +83,6 @@ int main(){
     }
     
     // check bidirectionality
-
     int flag=1; // default: bi.
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
@@ -99,5 +99,4 @@ int main(){
     else{
         cout<<"not bi-directional"<<endl;
     }
-
 }

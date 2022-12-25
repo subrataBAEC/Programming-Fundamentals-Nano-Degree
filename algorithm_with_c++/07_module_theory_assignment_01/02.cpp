@@ -110,7 +110,7 @@ int main(){
     cout<<endl;
 
     if(flag==1){
-        cout<<"bi-directional."<<"need to remove minimum "<<count<<" edges to make it bi-directional."<<endl;
+        cout<<"bi-directional."<<endl<<"need to remove minimum "<<count<<" edges to make it bi-directional."<<endl;
     }
     else{
         cout<<"not bi-directional."<<endl<<"need to remove minimum "<<count<<" edges to make it bi-directional."<<endl;

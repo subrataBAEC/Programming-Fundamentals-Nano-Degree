@@ -18,14 +18,17 @@ example : 1
 
 6 8
 
-1 5
 1 4
+1 5
 5 0
 4 0
 5 4
 4 2
 0 2
 2 3
+
+o/p: 1 4 0 5 2 3
+using stack: 1 5 0 2 3 4
 */
 
 
@@ -34,6 +37,34 @@ example : 1
 using namespace std;
 const int N=1e5; //visited array size
 
+/*
+
+// DFS using Stack DS
+int visited[N];
+vector<int>adj_list[N];
+
+void DFS(int node){
+   stack<int>st;
+   visited[node]=1;
+   st.push(node);
+
+   while(!st.empty()){
+    int head=st.top();
+    st.pop();
+
+    cout<<head<<" ";
+
+    for(int adj_node: adj_list[head]){
+        if (visited[adj_node]==0){
+            visited[adj_node]=1;
+            st.push(adj_node);
+        }
+    }
+   }
+}
+*/
+
+// recursive DFS
 int visited[N];
 vector<int>adj_list[N];
 
