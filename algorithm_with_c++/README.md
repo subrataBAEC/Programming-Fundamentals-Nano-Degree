@@ -10,3 +10,10 @@
 #### 1. Fibonacchi series using Recursion
 #### 2. DFS using Recursion
 #### 3. BFS using Recursion
+
+## 3. Module: 07
+### Theory Assignment 01
+#### Topics:
+#### 1. Graph Representation
+#### 2. DFS , BFS
+#### 3. Recursion, Time, Space Complexity
