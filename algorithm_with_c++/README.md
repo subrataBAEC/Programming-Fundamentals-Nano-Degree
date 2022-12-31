@@ -17,3 +17,15 @@
 #### 1. Graph Representation
 #### 2. DFS , BFS
 #### 3. Recursion, Time, Space Complexity
+
+## 4. Module: 08
+### problem sovling with BFS and DFS
+#### Topics:
+#### 1. SSSP: Single Source Shortest Path
+#### 2. Grid Traversal: Grid Traversal
+
+## 5. Module: 09
+### more problem sovling with BFS and DFS
+#### Topics:
+#### 1. flood fill algorithm
+#### 2. graph coloring algorithm
