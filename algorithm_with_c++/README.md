@@ -29,3 +29,8 @@
 #### Topics:
 #### 1. flood fill algorithm
 #### 2. graph coloring algorithm
+
+## 6. Module: 10
+### Lab class: more problem sovling with BFS and DFS
+#### 1. cycle detection in a Directed graph using DFS.
+#### 2. Topological sort algorithm.
