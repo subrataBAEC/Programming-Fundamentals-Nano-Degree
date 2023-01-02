@@ -178,7 +178,7 @@ int main(){
         int u,v;
         cin>>u>>v;
 
-        adj_list[u].push_back(v);
+        adj_list[u].push_back(v); // directed
     }
 
     top_sort(n,adj_list);     

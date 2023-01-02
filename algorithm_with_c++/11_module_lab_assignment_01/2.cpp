@@ -131,11 +131,4 @@ int main(){
     //run bfs
     bfs(src);
 
-    // if(level[3][7] == -1){
-    // cout<<"not possible to reach";
-    // }
-    // else{
-    //     cout<<"reached"<<endl;
-    //     cout<<level[3][7]<<endl;
-    // }
 }
