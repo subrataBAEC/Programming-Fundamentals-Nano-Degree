@@ -41,3 +41,8 @@
 #### 1. SSSP- DAG (DFS, BFS)
 #### 2. cycle detection: Directed (BFS, DFS), Undirected (BFS, DFS)
 #### 3. Topological Sort: BFS, DFS
+
+## 8. Module: 12
+#### Topics:
+#### 1. path printing,
+#### 2. shortest path of a weighted graph
