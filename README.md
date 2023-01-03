@@ -10,10 +10,10 @@
 #### Theory, Practices, Contests, Solutions
 
 ## Semester 2: 
-### Course 1: OOP with Python (Ongoing)
+### Course 1: OOP with Python 
 #### Theory, Practices, Solutions
 
-### Course 2: Introduction to Algorithms & Problem Solving
+### Course 2: Introduction to Algorithms & Problem Solving (Ongoing)
 #### Theory, Practices, Solutions
 
 -----------------------------------
